@@ -52,6 +52,7 @@ function UpcomingEvents() {
               <p className="text-sm text-gray-500 mb-3">{event.date}</p>
               <p className="text-gray-700">{event.description}</p>
             </div>
+            <button className='ml-6 mb-1 text-green-950'>Join here<i className="fa-solid fa-arrow-right"></i></button>
           </div>
         ))}
       </div>

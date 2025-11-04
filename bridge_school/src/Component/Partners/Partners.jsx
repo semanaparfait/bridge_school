@@ -1,34 +1,26 @@
 import React from 'react';
-import './Partners.css';
+// import './Partners.css';
 
 function Partners() {
   return (
     <section><br />
         <h1 className='text-green-950 font-medium text-center text-2xl'>OUR PATNERS</h1><br />
         <p className='text-center'>We work with the best partners</p><br /><br />
-        <div className='flex animate-scroll gap-7'>
+        <div className=' animate-scroll gap-7 flex items-center justify-evenly'>
             <div className='border rounded-[7px] py-2 px-5 '>
                 <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
             </div>
             <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
+                                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
             </div>
                         <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
+                                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
             </div>
                         <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
+                                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
             </div>
-                        <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
-            </div>
-                        <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
-            </div>
-                        <div className='border rounded-[7px] py-2 px-5'>
-                <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="" />
-            </div>
-        </div>
+
+        </div><br /><br />
     </section>
   )
 }
