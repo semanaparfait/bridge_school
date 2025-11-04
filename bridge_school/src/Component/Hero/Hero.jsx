@@ -3,6 +3,8 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import Partners from '../Partners/Partners'
 import SuccessStories from '../SuccessStories/SuccessStories'
+import SchoolAdvert from '../SchoolAdvert/SchoolAdvert'
+import UpcomingEvents from '../UpcomingEvents/UpcomingEvents'
 
 function Hero() {
   return (
@@ -68,6 +70,7 @@ function Hero() {
   </div>
 </div>
 
+      <UpcomingEvents/>
         <SuccessStories/>
         <Partners/>
         <Footer/>
