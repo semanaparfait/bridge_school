@@ -111,7 +111,7 @@ const [current, setCurrent] = useState(0);
     <div>
       <h2 className="text-xl font-semibold mb-2">Future Readiness</h2>
       <p className="text-gray-600">
-        We equip students with the skills and mindset needed to succeed in an ever-changing world 
+        We equip students with the skills and mindset needed to succeed in an ever-changing world. 
       </p>
     </div>
   </div>
