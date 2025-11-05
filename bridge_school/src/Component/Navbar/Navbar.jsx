@@ -6,7 +6,7 @@ function Navbar() {
     <section>
         <div className='flex items-center justify-evenly bg-white text-green-950 py-4'>
             <div>
-                <h1 className='font-bold'>Bridge skills <br /> TVT School</h1>
+                <h1 className='font-bold'>Bridge skills <br /> TVET School</h1>
             </div>
             <ul className='nav-links md:flex gap-3 font-medium cursor-pointer hidden'>
                 <li className='home-link'>Home</li>
