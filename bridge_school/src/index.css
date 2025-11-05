@@ -2,3 +2,21 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+::-webkit-scrollbar {
+  width: 8px;  /* Makes the scrollbar slim */
+}
+
+::-webkit-scrollbar-track {
+  background: #111827; /* Dark gray, matches your "gray-900" */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #16a34a; /* Your vibrant "green-600" */
+  border-radius: 10px;      /* Creates the rounded pill shape */
+  border: 1px solid #111827; /* Adds a small border to match the track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #22c55e; /* A slightly brighter "green-500" for hover */
+}

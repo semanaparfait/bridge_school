@@ -115,7 +115,7 @@ const [current, setCurrent] = useState(0);
       </p>
     </div>
   </div>
-</div>
+</div><br />
 
       <UpcomingEvents/>
         <SuccessStories/>
